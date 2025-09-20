@@ -138,24 +138,6 @@
     </footer>
 
     <script>
-        const 
-
-        // DOM Elements
-        const studentNameInput = document.getElementById('student-name-input');
-        const nameError = document.getElementById('name-error');
-        const startScreen = document.getElementById('start-screen');
-        const quizScreen = document.getElementById('quiz-screen');
-        const resultScreen = document.getElementById('result-screen');
-        const startBtn = document.getElementById('start-btn');
-        const nextBtn = document.getElementById('next-btn');
-        const whatsappBtn = document.getElementById('whatsapp-btn');
-        const restartBtn = document.getElementById('restart-btn');
-        const questionNumberEl = document.getElementById('question-number');
-        const totalQuestionsEl = document.getElementById('total-questions');
-        const scoreEl = document.getElementById('score');
-        const progressBar = document.getElementById('progress-bar');
-        const questionTextEl = document.getElementById('question-text');
-    
         const questions = [
     { question: "1. পৃথিবীর বায়ুমণ্ডলের সর্বাধিক অংশ কোন গ্যাস দ্বারা গঠিত?", options: ["অক্সিজেন", "নাইট্রোজেন", "কার্বন ডাই অক্সাইড", "আর্গন"], answer: 1 },
     { question: "2. ট্রপোস্ফিয়ারে গড়ে প্রতি কিমি উচ্চতা বৃদ্ধিতে তাপমাত্রা কত হারে হ্রাস পায়?", options: ["4°C", "5°C", "6.5°C", "8°C"], answer: 2 },
@@ -177,7 +159,24 @@
     { question: "18. বায়ুমণ্ডলের সবচেয়ে উষ্ণ স্তর কোনটি?", options: ["ট্রপোস্ফিয়ার", "মেসোস্ফিয়ার", "থার্মোস্ফিয়ার", "স্ট্রাটোস্ফিয়ার"], answer: 2 },
     { question: "19. নবীকরণযোগ্য শক্তির মধ্যে কোনটি নয়?", options: ["সৌর শক্তি", "বায়ু শক্তি", "ভূতাপ শক্তি", "কয়লা"], answer: 3 },
     { question: "20. মিথানোজেনিক ব্যাকটেরিয়ার কাজ কী?", options: ["নাইট্রোজেন নিরোধ", "মিথেন উৎপাদন", "কার্বন ডাই অক্সাইড ধ্বংস", "অক্সিজেন উৎপাদন"], answer: 1 }
-]; = document.getElementById('image-placeholder');
+];
+
+        // DOM Elements
+        const studentNameInput = document.getElementById('student-name-input');
+        const nameError = document.getElementById('name-error');
+        const startScreen = document.getElementById('start-screen');
+        const quizScreen = document.getElementById('quiz-screen');
+        const resultScreen = document.getElementById('result-screen');
+        const startBtn = document.getElementById('start-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const whatsappBtn = document.getElementById('whatsapp-btn');
+        const restartBtn = document.getElementById('restart-btn');
+        const questionNumberEl = document.getElementById('question-number');
+        const totalQuestionsEl = document.getElementById('total-questions');
+        const scoreEl = document.getElementById('score');
+        const progressBar = document.getElementById('progress-bar');
+        const questionTextEl = document.getElementById('question-text');
+        const imagePlaceholderEl = document.getElementById('image-placeholder');  
         const optionsContainer = document.getElementById('options-container');
         const finalScoreEl = document.getElementById('final-score');
         const totalScoreEl = document.getElementById('total-score');
